@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monthly Report</title>
+</head>
+<body>
+    <h1>Monthly Report</h1>
+    <table>
+        <thead>
+            <tr>
+            <th>Songs Added</th>
+            <th>Average Rating</th>
+            <th>Streams</th>
+            <th>Songs Flagged by Admin</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    {{ songs|length }}
+                </td>
+                <td>
+                    {{ average_rating }}
+                </td>
+                <td>
+                    {{ streams }}
+                </td>
+                <td>
+                    {{ flags }}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
