@@ -105,4 +105,4 @@ The project requires 6 terminals
     - Start celery-beat
 
             $ celery -A app:celery_app beat -l INFO
-Open your browser and navigate to http://localhost:8080
+Open your browser and navigate to http://localhost:5173
